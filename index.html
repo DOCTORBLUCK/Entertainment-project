@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The troy group</title>
     <link rel="stylesheet" href="css/troy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="navbar">
         <div class="container">
-            <a class="logo" href="troy.html">THE.TROY<span>.GROUP$</span></a>
+            <a class="logo" href="index.html">THE.TROY<span>.GROUP$</span></a>
             
 
             <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
@@ -18,15 +19,15 @@
                 <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
                 
                 <ul class="pri-nav">
-                    <li class="current"><a href="troy.html">Home</a></li>
+                    <li class="current"><a href="index.html">Home</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Bookings</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="About.html">About</a></li>
                 </ul>
 
                 <ul class="sec-nav">
                     <li><a href="#">Contact</a></li>
-                    <li class="Book-Us-Now-cta"><a href="#">Book Us Now</a></li>
+                    <li class="Book-Us-Now-cta"><a href="Tryforfree.html">Book Us Now</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,8 +40,8 @@
                 <p class="subhead">Events &amp; Entertainment</p>
                 <h1>THE.TROY.GROUP</h1>
 
-                <div class="hero-cta">
-                    <a href="#" class="pri-cta">Try for free</a>
+                <div class="showcase-cta">
+                    <a href="Tryforfree.html" class="pri-cta"> Try For Free</a>
                     <a href="#" class="watch-video-cta">
                         <img src="images/watch.svg" alt="Watch a video">Watch a video
                     </a>
@@ -106,6 +107,9 @@
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name">
 
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+
                     <label for="message">Message</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
@@ -118,7 +122,12 @@
 
         </div>
     </section>
+    <footer> 
 
+        <i class="fa fa-instagram"></i>
+        
+
+    </footer>
     <script>
 
         const mobileBtn = document.getElementById('mobile-cta')

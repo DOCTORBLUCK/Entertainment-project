@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color:red;
+  --primary-color:gold;
 }
-
+:root{
+  --secondary-color:#4169e1;
+}
 body {
   background: #F2F2F2;
   margin: 0;
@@ -49,6 +51,7 @@ section {
 
 .showcase {
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .left-col .subhead {
@@ -86,7 +89,7 @@ section {
 }
 
 section.features {
-  background: purple;
+  background:var(--secondary-color);
   color: white;
 }
 
@@ -108,7 +111,7 @@ ul.features-list li:before {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("https://assets.codepen.io/2621168/bullet.svg");
+  background-image: url("../images/bullet.svg");
   background-size: contain;
   margin-right: 0.5em;
 }
@@ -122,7 +125,7 @@ ul.features-list li:before {
   color: white;
 }
 .feedback-section li {
-  background: lightcoral;
+  background: black;
   text-align: center;
   padding: 2em 1em;
   width: 80%;
@@ -130,11 +133,39 @@ ul.features-list li:before {
   border-radius: 1em;
 }
 .feedback-section li img {
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 7em;
   border: 5px solid white;
   border-radius: 50%;
   margin-top: -4.5em;
+}
+
+.feedback-section-about {
+  background: grey;
+  color: white;
+  padding: 100px;
+  padding-bottom: 5px;
+}
+.feedback-section-about li {
+  background: red;
+  text-align: center;
+  padding: 2em 1em;
+  width: 100%;
+  height: 20%;
+  margin: 0 auto 5em auto;
+  border-radius: 1em;
+}
+.feedback-section-about li img {
+  width: 19em;
+  height: 27em;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: -4.5em;
+}
+
+.about {
+  text-align: center;
+  padding: 0;
 }
 
 h2 {
@@ -213,6 +244,81 @@ nav li a:hover {
 .discimg {
   width: 100%;
   border-radius: 20px;
+}
+
+.about {
+  padding: 0;
+}
+.about .aboutbackground {
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background: url("../troygrouplogo.jpeg_updated.png");
+  left: 0.2em;
+}
+
+footer {
+  background: wheat;
+  min-height: 50px;
+}
+
+.fa {
+  font-size: 50px !important;
+  color: blue;
+}
+
+.aboutli {
+  margin-left: 5%;
+}
+.aboutli li {
+  background: white;
+  justify-content: center;
+  text-align: center;
+  padding: 32px 16px;
+  width: 20%;
+  height: 20%;
+  margin-top: 1px;
+  margin-bottom: 19px;
+  margin-right: 70px;
+  margin-left: 50px;
+  border-radius: 2em;
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: 490px;
+  position: absolute;
+  left: 34%;
+  margin-left: -3px;
+  top: 63px;
+}
+
+.vl1 {
+  border-left: 1px solid white;
+  height: 490px;
+  position: absolute;
+  right: 34%;
+  margin-left: -3px;
+  top: 63px;
+}
+
+.aboutlidiv {
+  display: flex;
+  gap: 3rem;
+}
+
+.Book-Us-Now-cta1 a {
+  color: var();
+  border: 3px solid var(white);
+  font-weight: bold;
+  border-radius: 5em;
+  margin-top: -0.2em;
+  background: var(--primary-color);
+}
+.Book-Us-Now-cta a:hover {
+  background: black;
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {
@@ -348,7 +454,7 @@ nav li a:hover {
     position: absolute;
     width: 200px;
     height: 20em;
-    background: url("https://assets.codepen.io/2621168/dots.svg") no-repeat;
+    background: url("../images/dots.svg") no-repeat;
     left: 4.5em;
     top: 2em;
   }
