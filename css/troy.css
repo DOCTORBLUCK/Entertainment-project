@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 :root {
-  --primary-color:gold;
+  --primary-color:#FF6600;
 }
 :root{
   --secondary-color:#4169e1;
@@ -12,13 +12,13 @@ body {
 }
 
 .navbar {
-  background: white;
+  background: #1C1B1F;;
   padding: 1em;
 }
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: #ffffff;
   font-size: 1.2em;
 }
 .navbar .logo span {
@@ -51,7 +51,15 @@ section {
 
 .showcase {
   text-align: center;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background: url('/images/bg-img.jpg') no-repeat center center/cover;
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+h1 span {
+  color: gray;
 }
 
 .left-col .subhead {
@@ -89,7 +97,8 @@ section {
 }
 
 section.features {
-  background:var(--secondary-color);
+  /* background:var(--secondary-color); */
+  background-color: #12131b;
   color: white;
 }
 
@@ -121,11 +130,13 @@ ul.features-list li:before {
 }
 
 .feedback-section {
-  background: var(--primary-color);
-  color: white;
+  /* background: var(--primary-color); */
+  background-color: #3f4244;
+  color: #333;
 }
 .feedback-section li {
-  background: black;
+  /* background: black; */
+  background: #ffffff;
   text-align: center;
   padding: 2em 1em;
   width: 80%;
@@ -183,7 +194,7 @@ input, textarea {
   padding: 0.8em;
   margin-bottom: 1em;
   border-radius: 0.3em;
-  border: 1px solid var(--primary-color);
+  border: 1px solid gray;
   box-sizing: border-box;
 }
 
@@ -248,24 +259,25 @@ nav li a:hover {
 
 .about {
   padding: 0;
+  /* background-color: #12131b; */
 }
 .about .aboutbackground {
   content: "";
   position: relative;
   width: 100%;
   height: 50%;
-  background: url("../troygrouplogo.jpeg_updated.png");
+  /* background: url("../troygrouplogo.jpeg_updated.png"); */
   left: 0.2em;
 }
 
 footer {
-  background: wheat;
+  background: #1C1B1F;
   min-height: 50px;
 }
 
 .fa {
   font-size: 50px !important;
-  color: blue;
+  color: #405DE6;
 }
 
 .aboutli {
@@ -343,7 +355,7 @@ footer {
     display: flex;
   }
   .navbar nav a {
-    color: black;
+    color: #ffffff;
     font-size: 1em;
     padding: 0.1em 1em;
   }
