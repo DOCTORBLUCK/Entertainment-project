@@ -152,13 +152,14 @@ ul.features-list li:before {
 }
 
 .feedback-section-about {
-  background: grey;
+  /* background: grey; */
+  background-color: #12131b;
   color: white;
   padding: 100px;
   padding-bottom: 5px;
 }
 .feedback-section-about li {
-  background: red;
+  /* background: red; */
   text-align: center;
   padding: 2em 1em;
   width: 100%;
