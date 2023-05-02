@@ -9,6 +9,7 @@ body {
   background: #F2F2F2;
   margin: 0;
   font-family: "Poppins";
+  background-image: url()
 }
 
 .navbar {
@@ -403,7 +404,7 @@ footer {
     margin-right: 8em;
   }
   .showcase-cta {
-    display: flex;
+    display:url('/images/bg-img.jpg') no-repeat center center/cover flex;
   }
   .pri-cta {
     margin-right: 1em;
