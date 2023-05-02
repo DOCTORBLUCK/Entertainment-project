@@ -53,7 +53,7 @@ section {
 .showcase {
   text-align: center;
   /* background-color: whitesmoke; */
-  background: url('/images/bg-img.jpg') no-repeat center center/cover;
+  background: url('../images/bg-img.jpg') no-repeat center center/cover;
   /* background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
